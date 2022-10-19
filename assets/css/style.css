@@ -13,12 +13,14 @@ a.navbar-brand{
 
   h1{
     color: #7FFFD4;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   
   h3{
     color: lightskyblue;
     padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .img-thumbnail{
@@ -26,10 +28,7 @@ a.navbar-brand{
     margin:5px;
     border: #DCDCDC;
   }
-  
-  
-  
-  
+
   p{
    color:black;
    font-size: large;
@@ -41,21 +40,16 @@ a.navbar-brand{
     background-color: white;
   }
   .col-md-12{
-    background-color: white;
+    background-color: rgb(250, 248, 248);
     padding-top: 20px;
     padding-bottom:40px;
-  }
-  
-  
-  .highlight{
-    border: 3px solid rgb(188, 233, 85);
   }
   
   .navbar{
     padding-top:0px;
     padding-bottom: 0px;
     padding-right:40px;
-    background-color:rgb(44, 46, 46);
+    background-color:rgb(7, 97, 97);
   }
   
   .nav-item.dropdown.show {
@@ -76,16 +70,31 @@ a.navbar-brand{
   .content.bg-white {
     margin-top: 15px;
   }
+
   
-  @media(max-width:767px){
-    .navbar.bg-dark{
-        background-color: rgb(44, 46, 46)!important;    
+  @media(max-width: 992px) {
+    .navbar-expand-lg {
+    background-color: #000000;
     }
-  
-    .navbar-collapse{
-        background-color: #f8f9fa;
+    .navbar {
+      max-height: none;
+      padding: inherit;
     }
-    .navbar{
-        padding:inherit;
+    .navbar div {
+      margin: inherit;
+      background-color: rgb(255,255,255);
     }
-  }
+    .navbar-brand {
+      padding: 10px;
+    }
+    button{
+      margin-right: 30px;
+    }
+    button:focus {
+      outline: 1px dotted;
+      outline: auto 5px;
+    }
+    .navbar-toggler {
+      border: none;
+      background-color: rgb(255,255,255);
+    }
