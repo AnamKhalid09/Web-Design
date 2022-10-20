@@ -5,9 +5,8 @@ a.navbar-brand{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
   }
-
   h1{
-    color: #7FFFD4;
+    color: #056e4a;
     font-family: 'Times New Roman', Times, serif;
   }
   
@@ -16,12 +15,6 @@ a.navbar-brand{
     color: lightskyblue;
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
-  }
-  
-  .img-thumbnail{
-    padding:5px;
-    margin:5px;
-    border: #DCDCDC;
   }
 
   p{
@@ -39,57 +32,13 @@ a.navbar-brand{
     padding-top: 20px;
     padding-bottom:40px;
   }
-  
-  .navbar{
-    padding-top:0px;
-    padding-bottom: 0px;
-    padding-right:40px;
-    background-color:rgb(7, 97, 97);
-  }
-  
-  .nav-item.dropdown.show {
-    background-color: #ddd;
-  }
-  
-  .dropdown-menu {
-    margin: 0;
-  }
-  
-  
-  .content {
-    padding-top: 50px;
-    padding-bottom: 80px;
-    overflow: hidden;
-  }
-  
-  .content.bg-white {
-    margin-top: 15px;
-  }
 
-  
   @media(max-width: 992px) {
-    .navbar-expand-lg {
-    background-color: #000000;
-    }
     .navbar {
       max-height: none;
       padding: inherit;
     }
-    .navbar div {
-      margin: inherit;
-      background-color: rgb(255,255,255);
-    }
-    .navbar-brand {
+    a.navbar-brand {
       padding: 10px;
     }
-    button{
-      margin-right: 30px;
-    }
-    button:focus {
-      outline: 1px dotted;
-      outline: auto 5px;
-    }
-    .navbar-toggler {
-      border: none;
-      background-color: rgb(255,255,255);
-    }
+  }
