@@ -1,4 +1,4 @@
-# Web-Design-Challenge
+# Web-Design
 
 Background
 Data becomes more powerful when you share it with others! That’s because people can use your data only if they can access it. So, you’ll use HTML and CSS to create a dashboard featuring the Latitude vs. X analysis of weather.
@@ -152,17 +152,6 @@ Navigation Bar
 Large screen navigation bar
 
 Small screen navigation bar
-
-Submission
-To submit your Challenge assignment, click Submit, and then provide the URL of your GitHub repository and the URL of your deployed website for grading.
-
-NOTE
-You are allowed to miss up to two Challenge assignments and still earn your certificate. If you complete all Challenge assignments, your lowest two grades will be dropped. If you wish to skip this assignment, click Next, and move on to the next module.
-
-Comments are disabled for graded submissions in Bootcamp Spot. If you have questions about your feedback, please notify your instructional staff or your Student Success Manager. If you would like to resubmit your work for an additional review, you can use the Resubmit Assignment button to upload new links. You may resubmit up to three times for a total of four submissions.
-
-Rubric
-Module 11 Challenge RubricLinks to an external site.
 
 References
 OpenWeatherMap.org. (2022). Сurrent weather and forecast. Retrieved from https://openweathermap.org/Links to an external site..
